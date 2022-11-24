@@ -1,0 +1,31 @@
+.buttons_list {
+	display: flex;
+	align-items: center;
+	background-color: #fff;
+	padding: 8px;
+}
+.btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 30px;
+	width: 30px;
+	margin-right:8px;
+	font-size: 16px;
+	background: #eee;
+	border-radius: 6px;
+	border: 1px solid transparent;
+	overflow: hidden;
+	padding:2px;
+	cursor: pointer;
+}
+#content {
+	padding: 18px;
+	background-color: #fff;
+	height: 300px;
+	overflow-y: scroll;
+}
+#content:focus {
+	outline: 1px solid #497174 !important;
+}
+
