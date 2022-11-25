@@ -26,7 +26,6 @@ function Editor() {
     <div className="root">
          <div className="buttons_list">
             <button className="btn" id="bold" onClick={e => execute(e)}>
-              {/*<i className="fa-solid fa-bold"></i>*/}
             B
             </button>
             <button className="btn" id="italic" onClick={e => execute(e)}>
