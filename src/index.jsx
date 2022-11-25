@@ -26,37 +26,48 @@ function Editor() {
     <div className="root">
          <div className="buttons_list">
             <button className="btn" id="bold" onClick={e => execute(e)}>
-              <i className="fa-solid fa-bold"></i>
+              {/*<i className="fa-solid fa-bold"></i>*/}
+            B
             </button>
             <button className="btn" id="italic" onClick={e => execute(e)}>
-              <i className="fa-solid fa-italic"></i>
+              {/*<i className="fa-solid fa-italic"></i>*/}
+            I
             </button>
             <button className="btn" id="underline" onClick={e => execute(e)}>
-              <i className="fa-solid fa-underline"></i>
+              {/*<i className="fa-solid fa-underline"></i>*/}
+            U
             </button>
             <button className="btn" id="justifyLeft" onClick={e => execute(e)}>
-              <i className="fa-solid fa-align-left"></i>
+              {/*<i className="fa-solid fa-align-left"></i>*/}
+            JL
             </button>
             <button className="btn" id="justifyCenter" onClick={e => execute(e)}>
-              <i className="fa-solid fa-align-center"></i>
+              {/*<i className="fa-solid fa-align-center"></i>*/}
+            JC
             </button>
             <button className="btn" id="justifyRight" onClick={e => execute(e)}>
-              <i className="fa-solid fa-align-right"></i>
+              {/*<i className="fa-solid fa-align-right"></i>*/}
+            JR
             </button>
             <button className="btn" id="justifyFull" onClick={e => execute(e)}>
-              <i className="fa-solid fa-align-justify"></i>
+              {/*<i className="fa-solid fa-align-justify"></i>*/}
+            JF
             </button>
             <button className="btn" id="insertOrderedList" onClick={e => execute(e)}>
-              <i className="fa-solid fa-list-ol"></i>
+              {/*<i className="fa-solid fa-list-ol"></i>*/}
+            OL
             </button>
             <button className="btn" id="insertUnorderedList" onClick={e => execute(e)}>
-              <i className="fa-solid fa-list"></i>
+              {/*<i className="fa-solid fa-list"></i>*/}
+            UL
             </button>
             <button className="btn" id="plus" onClick={e => execute(e)}>
-              <i className="fa-solid fa-plus"></i>
+              {/*<i className="fa-solid fa-plus"></i>*/}
+            +
             </button>
             <button className="btn" id="minus" onClick={e => execute(e)}>
-              <i className="fa-solid fa-minus"></i>
+              {/*<i className="fa-solid fa-minus"></i>*/}
+            -
             </button>
 
          </div>
