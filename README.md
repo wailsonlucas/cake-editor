@@ -6,7 +6,7 @@ install Cake Editor in a React based project with this command:
 
 in your file:
 
-```
+```jsx
 import Editor from "cake-editor"
 
 
@@ -15,6 +15,6 @@ export default funciton App(){
 		<div classNAme="app">
 			<Editor />
 		</div>
-		)
+	)
 }
 ```
