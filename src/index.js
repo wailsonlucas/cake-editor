@@ -1,8 +1,24 @@
+import { useState } from "react"
 import "./app.css"
 
-function Editor(props) {  
-  console.log(props)
+function Editor(props) {   
+  // let [state, setState] = useState({
+  //   fontColor: "",
+  //   bg: ""
+  // })
   var font_size = 4
+  var {
+    fontColor,
+    bg
+  } = props
+
+  if(typeof fontColor !== "undefined") {
+   console.log(fontColor)
+  }
+
+  if(typeof bg !== "undefined") {
+    console.log(bg)
+  }
 
   let execute = e => {
     let { currentTarget } = e

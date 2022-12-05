@@ -17,13 +17,4 @@ module.exports = {
       }
     ]
   }
-
-  //Dev server
-  devServer: {
-  static: {
-    directory: path.join(__dirname, 'public'),
-  },
-  compress: true,
-  port: 9000,
-  },
 };
