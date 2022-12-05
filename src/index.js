@@ -1,24 +1,12 @@
 import { useState } from "react"
 import "./app.css"
 
-function Editor(props) {   
-  // let [state, setState] = useState({
-  //   fontColor: "",
-  //   bg: ""
-  // })
+function Editor(props) {    
   var font_size = 4
   var {
     fontColor,
     bg
   } = props
-
-  if(typeof fontColor !== "undefined") {
-   console.log(fontColor)
-  }
-
-  if(typeof bg !== "undefined") {
-    console.log(bg)
-  }
 
   let execute = e => {
     let { currentTarget } = e
@@ -39,7 +27,7 @@ function Editor(props) {
   }
 
   return (
-    <div className="root">
+    <div className="root" style={{color: fontColor, backgroundColor: bg}}>
          <div className="buttons_list">
             <button className="btn" id="bold" onClick={e => execute(e)}>
             C
