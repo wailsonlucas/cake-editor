@@ -1,10 +1,10 @@
 import "./app.css"
 
-function Editor() {  
+function Editor(props) {  
+  console.log(props)
   var font_size = 4
 
   let execute = e => {
-    // console.log(e.target.id)
     let { currentTarget } = e
     let { id } = currentTarget
     if(id === "plus") {
@@ -26,7 +26,7 @@ function Editor() {
     <div className="root">
          <div className="buttons_list">
             <button className="btn" id="bold" onClick={e => execute(e)}>
-            B
+            C
             </button>
             <button className="btn" id="italic" onClick={e => execute(e)}>
               {/*<i className="fa-solid fa-italic"></i>*/}

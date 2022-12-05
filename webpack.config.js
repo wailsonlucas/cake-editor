@@ -16,8 +16,14 @@ module.exports = {
         loader: "style-loader!css-loader"
       }
     ]
-  },
-  externals: {
-    react: "React"
   }
+
+  //Dev server
+  devServer: {
+  static: {
+    directory: path.join(__dirname, 'public'),
+  },
+  compress: true,
+  port: 9000,
+  },
 };
